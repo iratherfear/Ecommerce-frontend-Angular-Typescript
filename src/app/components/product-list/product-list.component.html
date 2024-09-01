@@ -10,9 +10,12 @@
                         <img src="{{ product.imageUrl }}" class="img-responsive">
                         <h1>{{ product.name }}</h1>
                         <div class="price">{{ product.unitPrice | currency:'USD' }}</div>
-                        <a href="#" class="btn primary-btn">Add to cart</a>
+                        <a class="btn primary-btn">Add to cart</a>
                     </div>
+                </div>
 
+                <div *ngIf="products?.length == 0" class="alert alert-warning col-md-12" role="alert">
+                    No Products found!
                 </div>
             </div>
         </div>
