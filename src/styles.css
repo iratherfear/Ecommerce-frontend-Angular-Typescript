@@ -544,6 +544,23 @@ input.au-input.au-input-xl{
     font-weight:800;
     color:#0da8e4
 }
+
+.product-box button {
+    background-color: #3528a7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-box button:hover {
+    background-color: #218838;
+}
+
 .product-box h1{
     font-size:18px;
     border-bottom:1px solid #ccc;
@@ -557,6 +574,9 @@ input.au-input.au-input-xl{
     padding-bottom:0;
     font-weight:500;
     color:#585858
+}
+.product-box a {
+    text-decoration: none;
 }
 
 /* 
@@ -721,6 +741,27 @@ table.table.table-bordered th{
 }
 .detail-section{
     margin-top:60px
+}
+
+
+.detail-section button {
+    background-color: #3528a7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detail-section button:hover {
+    background-color: #218838;
+}
+
+.detail-img {
+    width: 30%;
 }
 /**/
 
@@ -974,7 +1015,7 @@ footer ul li{
         text-align:center
     }
     .product-box{
-        text-align:centerg
+        text-align:center
     }
     .page-container{
         position:relative;
